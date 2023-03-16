@@ -1,0 +1,42 @@
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{
+    header {
+        padding-bottom: 103px;
+    }
+    .search{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 12px;
+    }
+    .logo-explore{
+        font-size: 9px;
+    }
+    .offer-left-box{
+        margin-bottom: 24px;
+    }
+    .offer-3-item{
+        margin-bottom: 10px;
+    }
+    .hidden-xs{
+        display: none;
+    }
+}
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .offer-left-box{
+        margin-bottom: 24px;
+    }
+}
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .search{
+        width: 220px;
+    }
+}
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px){ 
+    .container{
+        max-width: 1028px;
+    }
+}
